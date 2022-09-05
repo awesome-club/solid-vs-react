@@ -1,0 +1,40 @@
+body {
+  background-image: url("./assets/pixel.jpg");
+  background-size: 800px;
+  padding: 0;
+  margin: 0;
+}
+
+.app {
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, .5);
+}
+
+.app > div {
+  background: #FFF;
+  margin: 0 0 25px;
+  max-width: 400px;
+  width: 80%;
+  border-left: 10px solid #e33e3e;
+  padding: 5px 10px;
+  display: flex;
+}
+
+.app > div.done {
+  border-color: #16a029;
+}
+
+.app > div h3 {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.app > div button {
+  margin-left: auto;
+  cursor: pointer;
+}
